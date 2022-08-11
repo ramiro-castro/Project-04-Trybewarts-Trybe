@@ -1,10 +1,10 @@
 *{
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
   }
   
   body {
-    line-height: 1.5em;
+  line-height: 1.5em;
   }
 /* -----------------------Header-------------------------------------------------------- */
   .header{
@@ -30,19 +30,18 @@ main{
 #evaluation-form{
   display: flex;
   flex-direction: column;
-  /* border: solid 3px rgb(221, 4, 174); */
   width: 675px;
 }
 
 #name-lastname{
-  /* border: solid 1px black;   */
+  width: 100%;
 }
 
 #input-name, #input-lastname{
-    border: none;
-    border-radius: 5px;
-    width: 49%;
-    height: 40px;
+  border: none;
+  border-radius: 5px;
+  width: 49%;
+  height: 40px;
 }
 
 #email-house{
@@ -57,9 +56,23 @@ main{
 }
 
 #house{
-    border-radius: 5px;
-    width: 42.4%;
-    height: 38px;
+  border-radius: 5px;
+  width: 42.4%;
+  height: 38px;
+}
+
+#families{
+  border: solid 1px yellow;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+#family-options{
+  border: solid 1px brown;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
 }
 
 /* -------------------------------Logo Principal--------------------------------------------------- */
