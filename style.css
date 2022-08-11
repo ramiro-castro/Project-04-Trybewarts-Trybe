@@ -29,9 +29,38 @@ main{
 /* ---------------------------Formulário Principal------------------------------------------------ */
 #evaluation-form{
   display: flex;
+  flex-direction: column;
+  /* border: solid 3px rgb(221, 4, 174); */
   width: 675px;
 }
 
+#name-lastname{
+  /* border: solid 1px black;   */
+}
+
+#input-name, #input-lastname{
+    border: none;
+    border-radius: 5px;
+    width: 49%;
+    height: 40px;
+}
+
+#email-house{
+  font-weight: bold;  
+}
+
+#input-email{
+  border: none;
+  border-radius: 5px;
+  width: 49%;
+  height: 40px;
+}
+
+#house{
+    border-radius: 5px;
+    width: 42.4%;
+    height: 38px;
+}
 
 /* -------------------------------Logo Principal--------------------------------------------------- */
 #image{
