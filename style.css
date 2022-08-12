@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
   box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
   line-height: 2em;
-  }
+}
 /* -----------------------Header-------------------------------------------------------- */
   .header{
      
@@ -21,104 +21,109 @@
 
   .trybewarts-login{
 
-  }
-/* ------------------------------------------------------------------------------------------ */
-main{
+}
+
+/* ---------------------------------------------------------------------------------- */
+main {
   display: flex;
 }
-/* ---------------------------Formulário Principal------------------------------------------------ */
-#evaluation-form{
+
+/* ---------------------------Formulário Principal------------------------------------ */
+#evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
 }
 
-#name-lastname{
+#name-lastname {
   width: 100%;
 }
 
-#input-name, #input-lastname{
+#input-name , #input-lastname {
   border: none;
   border-radius: 5px;
   width: 49%;
   height: 40px;
 }
 
-#email-house{
-  font-weight: bold;  
+#email-house {
+  font-weight: 800;
 }
 
-#input-email{
+#input-email {
   border: none;
   border-radius: 5px;
   width: 49%;
   height: 40px;
 }
 
-#house{
+#house {
   border-radius: 5px;
   width: 42.4%;
   height: 38px;
 }
 
-#families-contents{
+#families-contents {
   display: flex;
   justify-content: center;
   font-size: 1.13em;
 }
 
-#families{
+#families {
   display: flex;
   flex-direction: column;
   width: 50%;
   align-items: center;
 }
 
-#what-family-options{
+#what-family-options {
   display: flex;
   flex-direction: column;
   width: 70%;
 }
 
-#frontend{
+#frontend {
   display: inline;
 }
 
-#label-family{
+#label-family {
   width: 100%;
 }
 
-#family-options{
+#family-options {
   display: flex;
   flex-direction: column;
   height: 100px;
   align-items: flex-start;
 }
 
-#contents{
+#contents {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
-#label-content{
+
+#label-content {
   display: flex;
   flex-wrap: wrap;
 }
 
-#checkbox-options{
+#checkbox-options {
   display: flex;
   flex-wrap: wrap;
 }
 
-.content-option{
+.content-option {
   display: flex;
   width: 30%;
 }
-/* -------------------------------Logo Principal--------------------------------------------------- */
-#image{
+
+/* -------------------------------Logo Principal------------------------------ */
+
+/* #image {
 
 }
 
-#trybewarts-forms-logo{
+#trybewarts-forms-logo {
 
-}
+} */
