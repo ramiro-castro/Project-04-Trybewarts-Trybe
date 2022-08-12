@@ -33,6 +33,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
+  /* border: solid 3px black; */
 }
 
 #name-lastname {
@@ -118,6 +119,15 @@ main {
   width: 30%;
 }
 
+#label-rate {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: solid 3px rgb(61, 142, 223); */
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 7%;
+  font-size: 1.13em;
+}
 /* -------------------------------Logo Principal------------------------------ */
 
 /* #image {
