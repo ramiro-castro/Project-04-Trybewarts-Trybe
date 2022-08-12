@@ -8,18 +8,22 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 <body>
-    <header class='header'> <!-----------Cabeçalho verde-------------------------------------->
-        <div id='logoT'> <!---------------Container para a imagem à esquerda-->
-            <img class='trybewarts-header-logo' alt=''>
-        </div>
 
-        <h1></h1><!-------Título do Cabeçalho-->>
+	<header class="header"> <!-----------Cabeçalho verde-------------------------------------->
+		<div id="logoT"> <!---------------Container para a imagem à esquerda-->
+			<img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="">
+		</div>
 
-        <form class='trybewarts-login'action=''><!---------Formulário de login-->
-            
-        </form>
+		<h1 id="trybewarts-header-title">Trybewarts</h1><!-------Título do Cabeçalho-->
 
-    </header>
+		<form class="trybewarts-login"action=""><!---------Formulário de login-->
+			<input type="text" id="email" name="email"    placeholder="Email">
+			<input type="text" id="senha" name="password" placeholder="Senha">
+			<button class="botaoEnviar" type="submit" onclick="login()">Entrar</button>
+		</form>
+
+	</header>
+
     <!---------------------------------------------------------------------------------------->
 
     <main>
