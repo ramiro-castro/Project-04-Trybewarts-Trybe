@@ -42,14 +42,57 @@
                 </select>
             </div>
 
-            <div id="families">
-                <label id="label-family">Qual a sua família?</label>
-                <div id="family-options">
-                    <label for="frontend">Família Frontend<input id="frontend" type="radio" value="Frontend" name="family"></label>
-                    <label for="backend">Família Backend<input id="backend" type="radio" value="Backend" name="family"></label>
-                    <label for="fullstack">Família Fullstack<input id="fullstack" type="radio" value="FullStack" name="family"></label>
-                    
-                    
+            <div id="families-contents">
+                <div id="families">
+                    <div id="what-family-options">
+                        <label id="label-family">Qual a sua família?</label>
+                        <div id="family-options">
+                            <div>
+                                <input id="frontend" type="radio" value="Frontend" name="family">
+                                <label for="frontend">Família Frontend</label>
+                            </div>
+                            
+                            <div>
+                                <input id="backend" type="radio" value="Backend" name="family">
+                                <label for="backend">Família Backend</label>
+                            </div>
+                            <div>
+                                <input id="fullstack" type="radio" value="FullStack" name="family">
+                                <label for="fullstack">Família Fulls</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div id="contents">
+                    <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    <div id="checkbox-options">
+                        <div class="content-option">
+                            <input id="HoFs" class="subject" type="checkbox" value="HoFs"> 
+                            <label for="HoFs">HoFs</label>
+                        </div>
+                        <div class="content-option">
+                            <input id="Jest" class="subject" type="checkbox" value="Jest">
+                            <label for="Jest">Jest</label>
+                        </div>
+                        <div class="content-option">
+                            <input id="Promises" class="subject" type="checkbox" value="Promises">
+                            <label for="Promises" >Promises</label>
+                        </div>
+                        <div class="content-option">
+                            <input id="React" class="subject" type="checkbox" value="React">
+                            <label for="React" >React</label>
+                        </div>
+                        <div class="content-option">
+                            <input id="SQL" class="subject" type="checkbox" value="SQL">
+                            <label for="SQL" >SQL</label>
+                        </div>
+                        <div class="content-option">
+                            <input id="Python" class="subject" type="checkbox" value="Python">
+                            <label for="Python" >Python</label>
+                        </div>
+                    </div>
                 </div>
             </div>
         </form>

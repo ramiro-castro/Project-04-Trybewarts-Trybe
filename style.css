@@ -4,7 +4,7 @@
   }
   
   body {
-  line-height: 1.5em;
+  line-height: 2em;
   }
 /* -----------------------Header-------------------------------------------------------- */
   .header{
@@ -61,20 +61,59 @@ main{
   height: 38px;
 }
 
+#families-contents{
+  display: flex;
+  justify-content: center;
+  font-size: 1.13em;
+}
+
 #families{
-  border: solid 1px yellow;
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 50%;
+  align-items: center;
+}
+
+#what-family-options{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+#frontend{
+  display: inline;
+}
+
+#label-family{
+  width: 100%;
 }
 
 #family-options{
-  border: solid 1px brown;
   display: flex;
   flex-direction: column;
   height: 100px;
+  align-items: flex-start;
 }
 
+#contents{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+#label-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#checkbox-options{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-option{
+  display: flex;
+  width: 30%;
+}
 /* -------------------------------Logo Principal--------------------------------------------------- */
 #image{
 
