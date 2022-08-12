@@ -26,14 +26,33 @@ body {
 /* ---------------------------------------------------------------------------------- */
 main {
   display: flex;
+  /* border: solid 4px violet; */
+  justify-content: space-evenly;
 }
 
 /* ---------------------------Formulário Principal------------------------------------ */
+#main1{
+  /* border: solid 4px red; */
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+#form-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
 #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
-  /* border: solid 3px black; */
+  height: 100%;
 }
 
 #name-lastname {
@@ -66,25 +85,20 @@ main {
 
 #families-contents {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 1.13em;
 }
 
 #families {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  align-items: center;
+  width: 40%;
 }
 
 #what-family-options {
   display: flex;
   flex-direction: column;
   width: 70%;
-}
-
-#frontend {
-  display: inline;
 }
 
 #label-family {
@@ -122,18 +136,46 @@ main {
 #label-rate {
   display: flex;
   flex-wrap: wrap;
-  /* border: solid 3px rgb(61, 142, 223); */
   justify-content: space-between;
   width: 100%;
-  padding-left: 7%;
   font-size: 1.13em;
 }
+
+.textarea {
+  font-size: 1.13em;
+}
+
+#coment {
+  resize: vertical;
+  width: 100%;
+}
+
+#label-agreement {
+  font-size: 1.13em;
+}
+
+#submit-btn {
+  border-radius: 5px;
+  background-color: rgb(106, 25, 236);
+  color: white;
+  height: 35px;
+}
+
 /* -------------------------------Logo Principal------------------------------ */
-
-/* #image {
-
+#image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
 }
 
 #trybewarts-forms-logo {
+  height: 500px;
+  width: 70%;
+}
 
-} */
+footer {
+  background: rgba(3, 11, 32, 0.9);
+  color: white;
+  text-align: center;
+}
