@@ -5,6 +5,8 @@
   
   body {
   line-height: 1.5em;
+  background-color: rgb(239,239,239);
+  
   }
 /* -----------------------Header-------------------------------------------------------- */
 header{
@@ -70,8 +72,9 @@ main {
 	flex-direction: column;
   }
   
-  h1 {
+  #form-title{
 	text-align: center;
+	margin: 35px;
   }
   
   #form-options {
@@ -86,6 +89,7 @@ main {
 	flex-direction: column;
 	width: 675px;
 	height: 100%;
+	
   }
   
   #name-lastname {
@@ -97,10 +101,12 @@ main {
 	border-radius: 5px;
 	width: 49%;
 	height: 40px;
+	
   }
   
   #email-house {
 	font-weight: 800;
+	margin-top: 20px;
   }
   
   #input-email {
@@ -114,6 +120,7 @@ main {
 	border-radius: 5px;
 	width: 42.4%;
 	height: 38px;
+	background-color: rgb(255,255,255);
   }
   
   #families-contents {
@@ -132,6 +139,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	width: 70%;
+	margin-top: 45px;
   }
   
   #label-family {
@@ -143,17 +151,21 @@ main {
 	flex-direction: column;
 	height: 100px;
 	align-items: flex-start;
+	line-height: 35px;
+	margin-top: 12px;
   }
   
   #contents {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
+	line-height: 35px;
   }
   
   #label-content {
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 40px;
   }
   
   #checkbox-options {
@@ -172,15 +184,18 @@ main {
 	justify-content: space-between;
 	width: 100%;
 	font-size: 1.13em;
+	margin-top: 40px;
   }
   
   .textarea {
 	font-size: 1.13em;
+	margin-top: 25px;
   }
   
   #coment {
 	resize: vertical;
 	width: 100%;
+	size: 100px
   }
   
   #label-agreement {
