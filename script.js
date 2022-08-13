@@ -9,3 +9,10 @@ function login(){
 		alert("Email ou senha inválidos.");
 	}	
 }
+
+// https://medium.com/walternascimentobarroso-pt/contador-de-caracteres-com-html-e-js-648ee612d7be
+function countText() {
+	let text = document.getElementById('coment').value;
+	document.getElementById('characters').innerText = 500 - text.length;
+	
+}

@@ -193,13 +193,22 @@ main {
   }
   
   #coment {
-	resize: vertical;
-	width: 100%;
-	size: 100px
+	resize: none;
   }
   
+  #characters{
+	position: fixed;
+    z-index: 999;
+    margin-top :-32px;
+    margin-left: 645px;
+    cursor:pointer;
+    font-size: 20px;
+	     
+  }
+
   #label-agreement {
 	font-size: 1.13em;
+	margin-top: 10px;
   }
   
   #submit-btn {
@@ -207,6 +216,7 @@ main {
 	background-color: rgb(106, 25, 236);
 	color: white;
 	height: 35px;
+	margin-top: 10px;
   }
   
   /* -------------------------------Logo Principal------------------------------ */
@@ -223,6 +233,9 @@ main {
   }
   
   footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	background: rgba(3, 11, 32, 0.9);
 	color: white;
 	text-align: center;

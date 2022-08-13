@@ -117,8 +117,9 @@
 
                     <label class="textarea" for="coment">Deixe seu comentário:</label>
                     <div>
-                        <textarea id="coment" maxlength="500"></textarea>
-                    </div>
+						<textarea name="text" cols="82" rows="6" type="text" id="coment" maxlength='500' oninput="countText()"></textarea>
+					    <span id="characters">500</span>
+					</div>
                     
                     <div id="label-agreement">
                         <label id="label-infos" for="agreement">Você concorda com o uso das informações?</label>
@@ -141,6 +142,7 @@
     <footer>
         Direitos reservados à Trybewarts©;
     </footer>
+	<script src='script.js'></script>
 </body>
-<script src='script.js'></script>
+
 </html>
