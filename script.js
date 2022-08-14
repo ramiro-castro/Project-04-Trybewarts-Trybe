@@ -1,14 +1,15 @@
-//  var email = document.getElementById('email').value;
+const botaoEntrar = document.querySelector('.botaoEntrar');
 
-function login(){
-	// alert(document.getElementById('email').value);
-	// alert(email);
-	if(document.getElementById('email').value=='tryber@teste.com' && document.getElementById('senha').value=="123456") { // tentei armazenar em uma variavel mas nao consegui
-		alert("Olá, Tryber!");
-	}else{
-		alert("Email ou senha inválidos.");
-	}	
-}
+botaoEntrar.addEventListener('click', () => {
+  const checaEmail = document.getElementById('email').value;
+  const checaSenha = document.getElementById('senha').value;
+
+  if (checaEmail === 'tryber@teste.com' && checaSenha === '123456') {
+    alert('Olá, Tryber!');
+  } else {
+    alert('Email ou senha inválidos.');
+  }
+});
 
 // https://medium.com/walternascimentobarroso-pt/contador-de-caracteres-com-html-e-js-648ee612d7be
 function countText() {
