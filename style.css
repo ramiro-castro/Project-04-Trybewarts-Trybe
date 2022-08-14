@@ -62,7 +62,7 @@ header #trybewarts-header-title{
 main {
 	display: flex;
 	/* border: solid 4px violet; */
-	justify-content: space-evenly;
+	justify-content: space-evenly;la
   }
   
   /* ---------------------------Formulário Principal------------------------------------ */
@@ -207,10 +207,13 @@ main {
   }
 
   #label-agreement {
-	font-size: 1.13em;
 	margin-top: 10px;
   }
-  
+
+  #label-infos {
+	font-size: 1.13em;
+  }
+  	
   #submit-btn {
 	border-radius: 5px;
 	background-color: rgb(106, 25, 236);
