@@ -11,12 +11,10 @@ botaoEntrar.addEventListener('click', () => {
   }
 });
 
-// https://medium.com/walternascimentobarroso-pt/contador-de-caracteres-com-html-e-js-648ee612d7be
-function countText() {
-	let text = document.getElementById('textarea').value;
-	document.getElementById('counter').innerText = 500 - text.length;
-	
-}
+document.querySelector('#textarea').addEventListener('keyup', () => {
+  const text = document.getElementById('textarea').value;
+  document.getElementById('counter').innerText = 500 - text.length;
+});
 
 //https://cursos.alura.com.br/forum/topico-habitar-desabilitar-botao-65202
 //desabilita o botão no início
