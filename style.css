@@ -8,7 +8,7 @@ body {
   background-color: rgb(239, 239, 239);
 }
 
-/* -----------------------Header-------------------------------------------------------- */
+/* -----------------------Header----------------------------------------------- */
 header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -31,19 +31,20 @@ header #trybewarts-header-title {
   display: flex;
   align-items: center;
 }
+
 .trybewarts-login #email {
   margin-left: 10px;
   width: 120px;
   height: 40px;
   border-radius: 7px;
-  border: #fff;
+  border: white;
 }
 
 .trybewarts-login #senha {
   margin-left: 10px;
   width: 120px;
   height: 40px;
-  border: #fff;
+  border: white;
   border-radius: 7px;
 }
 
@@ -51,10 +52,10 @@ header #trybewarts-header-title {
   margin-left: 10px;
   width: 120px;
   height: 40px;
-  border: rgb(67,36,96);
+  border: rgb(67, 36, 96);
   border-radius: 7px;
-  color: #fff;
-  background-color:rgb(67,36,96);
+  color: white;
+  background-color: rgb(67, 36, 96);
 }
 
 /* ---------------------------------------------------------------------------------- */
@@ -62,7 +63,7 @@ main {
   display: flex;
   justify-content: space-evenly;
 }
-  
+
 /* ---------------------------Formulário Principal------------------------------------ */
 #main1 {
 
@@ -117,7 +118,7 @@ main {
   border-radius: 5px;
   width: 42.4%;
   height: 38px;
-  background-color: rgb(255,255,255);
+  background-color: white;
 }
 
 #families-contents {
