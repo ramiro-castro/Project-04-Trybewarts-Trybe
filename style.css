@@ -62,7 +62,7 @@ header #trybewarts-header-title{
 main {
 	display: flex;
 	/* border: solid 4px violet; */
-	justify-content: space-evenly;la
+	justify-content: space-evenly;
   }
   
   /* ---------------------------Formulário Principal------------------------------------ */

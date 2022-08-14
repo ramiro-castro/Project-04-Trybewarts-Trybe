@@ -26,13 +26,12 @@ var checa = document.getElementsByName("toggle");
 var numElementos = checa.length;
 var bt = document.getElementById("submit-btn");
 
-for(var x=0; x<numElementos; x++){
-	checa[x].onclick = function(){
+	checa[0].onclick = function(){
 	   // "input[name='toggle']:checked" conta os checkbox checados
 	   var cont = document.querySelectorAll("input[name='toggle']:checked").length;
 	   // ternário que verifica se há algum checado.
 	   // se não há, retorna 0 (false), logo desabilita o botão
 	   bt.disabled = cont ? false : true;
 	}
- }
+ 
 
