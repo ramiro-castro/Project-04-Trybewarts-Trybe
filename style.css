@@ -192,11 +192,11 @@ main {
 	margin-top: 25px;
   }
   
-  #coment {
+  #textarea {
 	resize: none;
   }
   
-  #characters{
+  #counter{
 	position: fixed;
     z-index: 999;
     margin-top :-32px;
@@ -213,7 +213,7 @@ main {
   #label-infos {
 	font-size: 1.13em;
   }
-  	
+
   #submit-btn {
 	border-radius: 5px;
 	background-color: rgb(106, 25, 236);

@@ -12,8 +12,8 @@ function login(){
 
 // https://medium.com/walternascimentobarroso-pt/contador-de-caracteres-com-html-e-js-648ee612d7be
 function countText() {
-	let text = document.getElementById('coment').value;
-	document.getElementById('characters').innerText = 500 - text.length;
+	let text = document.getElementById('textarea').value;
+	document.getElementById('counter').innerText = 500 - text.length;
 	
 }
 
