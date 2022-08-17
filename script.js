@@ -78,16 +78,7 @@ botaoEnviar.addEventListener('click', () => {
   Avaliação: ${rate}
   Observações: ${textArea.value}`;
   newForm.appendChild(newParagraph);
-  //evaluationForm .style.visibility = 'hidden';
-  //evaluationForm .parentElement.replaceChild(newForm, evaluationForm);
+  evaluationForm .style.visibility = 'hidden';
+  evaluationForm .parentElement.replaceChild(newForm, evaluationForm);
 
 });
-
-
-// var btn = document.querySelector("#clear-board");
-
-// btn.addEventListener("click", function() {
-    
-//     location.reload();
-
-// });
