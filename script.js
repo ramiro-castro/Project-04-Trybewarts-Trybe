@@ -1,5 +1,5 @@
 const botaoEntrar = document.querySelector('.botaoEntrar');
-const evaluationForm = document.getElementById('evaluation-form');
+const evaluationForm = document.getElementById('principal');
 // const formOptions = document.getElementById('form-options');
 const inputName = document.getElementById('input-name');
 const inputLastName = document.getElementById('input-lastname');
@@ -15,6 +15,8 @@ const botaoEnviar = document.getElementById('submit-btn');
 const newForm = document.createElement('form');
 newForm.id = 'form-data';
 const newParagraph = document.createElement('p');
+let armazena = [];
+
 
 botaoEntrar.addEventListener('click', () => {
   const checaEmail = document.getElementById('email').value;
@@ -49,19 +51,21 @@ checa[0].onclick = function checkbox() {
 };
 
 botaoEnviar.addEventListener('click', () => {
+
   let contentsChoosen = []; 
+
   for(let i of familyOptions) {
     if(i.children[0].checked) {
         whatYourFamily = i.children[0].value;
     }
   }
   for(let i of contentOption) {
-    let e = i.children[0];
+    const e = i.children[0];
     if(e.checked) {contentsChoosen.push(` ${e.value}`)}
   }
 
   for(let i = 1; i < rateOptions.length; i +=1) {
-    let e = rateOptions[i].children[0] 
+    const e = rateOptions[i].children[0] 
     if(e.checked) {
         rate = e.value;
     }
@@ -74,6 +78,16 @@ botaoEnviar.addEventListener('click', () => {
   Avaliação: ${rate}
   Observações: ${textArea.value}`;
   newForm.appendChild(newParagraph);
-  evaluationForm .parentElement.replaceChild(newForm, evaluationForm );
-  evaluationForm .style.visibility = 'hidden';
+  //evaluationForm .style.visibility = 'hidden';
+  //evaluationForm .parentElement.replaceChild(newForm, evaluationForm);
+
 });
+
+
+// var btn = document.querySelector("#clear-board");
+
+// btn.addEventListener("click", function() {
+    
+//     location.reload();
+
+// });
